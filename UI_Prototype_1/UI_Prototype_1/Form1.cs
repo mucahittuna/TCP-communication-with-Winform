@@ -17,6 +17,23 @@ namespace UI_Prototype_1
             InitializeComponent();
         }
 
-       
+        bool iscollapse = false;
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            if(iscollapse==false)
+            {
+                bunifuGradientPanel2.Width = 60;
+                bunifuGradientPanel3.Width = 1400;
+                iscollapse = true;
+            }
+            else
+            {
+                bunifuGradientPanel2.Width = 300;
+                bunifuGradientPanel3.Width = 1131;
+                iscollapse = false;
+            }
+        }
+
+      
     }
 }
