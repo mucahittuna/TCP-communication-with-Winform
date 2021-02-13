@@ -143,7 +143,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1204, 109</value>
+    <value>1206, 90</value>
   </data>
   <data name="lblConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 37</value>
@@ -176,7 +176,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>739, 100</value>
+    <value>753, 47</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 39</value>
@@ -206,7 +206,7 @@
     <value>Bell MT, 20pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>371, 100</value>
+    <value>385, 47</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 39</value>
@@ -228,33 +228,6 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="txtHost.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
   </data>
   <data name="txtHost.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -332,7 +305,7 @@
 </value>
   </data>
   <data name="txtHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>517, 95</value>
+    <value>531, 42</value>
   </data>
   <data name="txtHost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -354,33 +327,6 @@
   </data>
   <data name="&gt;&gt;txtHost.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="txtPort.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
   </data>
   <data name="txtPort.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -462,7 +408,7 @@
 </value>
   </data>
   <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>885, 95</value>
+    <value>899, 42</value>
   </data>
   <data name="txtPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -4978,7 +4924,7 @@
     <value>Stretch</value>
   </data>
   <data name="btnConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1237, 32</value>
+    <value>1239, 13</value>
   </data>
   <data name="btnConnect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -5001,6 +4947,9 @@
   <data name="&gt;&gt;btnConnect.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="bunifuGradientPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="bunifuGradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -5008,7 +4957,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="bunifuGradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1427, 173</value>
+    <value>1427, 134</value>
   </data>
   <data name="bunifuGradientPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5023,7 +4972,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bunifuGradientPanel1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="bunifuGradientPanel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5396,11 +5345,14 @@
   <data name="&gt;&gt;bunifuImageButton6.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="bunifuGradientPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <data name="bunifuGradientPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 173</value>
+    <value>0, 134</value>
   </data>
   <data name="bunifuGradientPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 673</value>
+    <value>300, 699</value>
   </data>
   <data name="bunifuGradientPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5415,31 +5367,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bunifuGradientPanel2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
-  <metadata name="bunifuGradientPanel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="bunifuGradientPanel3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="bunifuGradientPanel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFHSURBVChTDc13UwFwAAbg3z+uM0KyRyqRlcyQnJVUF02u
-        6bSkurQ5DV37+tRv7wd47hHRaBRzMzMoJhIop1KoptM4yGTQzOXQLhTQKRbRL5UgYtPTSIdCWIhEUInF
-        UIvHUU8mcUZ0TdTNZvGWz0PEvV5k/H6UAgGsBYPYDofR4NLicsulR/BOIBJOJ7KTk1j0eLDu82FnagqH
-        XM653HF5IvggEEm7HbmxMSw5HNhwubDrduOIywWXey7PXD65iFmzGXmrFcsjI9gcHcXe+DiOJyZwSfRA
-        9MLli4tI6XQoGAxYMZmwZbFg32bDCZcrLo9cXgm+CcScWo15jQZlrRZVvR4HRiNOubS5dLj0CX4IRFom
-        Q1GhQEWpRG1oCPXhYTS5XHPpcnnj8stFZCQSlAYGsCqVYlsuR2NwEC2VCjdEPaJ3Ln9GI/4B/+umQfH7
-        JzgAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAE+SURBVChTDc1nSwJxAAfg/xsR99Zzz3Oceo5z5jhHDrKy
+        YbuwQAohiiCC3vTVf/0+wMMjGo0G+q0WZp0OTno9XA0GeNJ1vI7H+JhO8TOb4W+xgKhUKmjXatA1Dctm
+        E2ftNm67XTwT7Ym+RiP8TiYQiqKgXirhQFUxrVaxqtdxyeWBy47LO8E3gZBlGeVcDs1CAcNiEfNyGadc
+        rrlsubwRfBKIeDyOXDKJajqNTjaLUT6PJZdzLndcXrjsuYhQKIRUJAIlFoOWSKCXSmGayWBFtCF65LLj
+        Inw+H6KBAORgEGo4jFY0iiGXOZc1lxuCLYFwOp2Q3G4kvF4U/H7UJAldLmMuR1wuCO4JhNlshttqRdhu
+        R9rlQtHjgcalz+WQyzGXDRdhMBhgMxrhM5kQs1iQtdmgOhxoEelECy5rScI/PnSbB6kOlI8AAAAASUVO
+        RK5CYII=
 </value>
   </data>
   <data name="bunifuGradientPanel3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="bunifuGradientPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="bunifuGradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>299, 173</value>
+    <value>300, 180</value>
   </data>
   <data name="bunifuGradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1131, 664</value>
+    <value>1127, 653</value>
   </data>
   <data name="bunifuGradientPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -5455,6 +5410,73 @@
   </data>
   <data name="&gt;&gt;bunifuGradientPanel3.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="bunifuGradientPanel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAArSURBVChTYwCC/wwMbEDMC8TCQCwJxApArAbEukBsDMSW
+        QDyqkI4KLf8DAM+rbskTlKQWAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuGradientPanel4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuCustomLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bunifuCustomLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="bunifuCustomLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bunifuCustomLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 10</value>
+  </data>
+  <data name="bunifuCustomLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 29</value>
+  </data>
+  <data name="bunifuCustomLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="bunifuCustomLabel2.Text" xml:space="preserve">
+    <value>Waiting the conection...</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.Name" xml:space="preserve">
+    <value>bunifuCustomLabel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuGradientPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuGradientPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 134</value>
+  </data>
+  <data name="bunifuGradientPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1127, 46</value>
+  </data>
+  <data name="bunifuGradientPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.Name" xml:space="preserve">
+    <value>bunifuGradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuGradientPanel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
