@@ -24,3 +24,20 @@ D:\saidburakguzel\Projects\Works\C#\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug
 D:\saidburakguzel\Projects\Works\C#\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csproj.CopyComplete
 D:\saidburakguzel\Projects\Works\C#\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.exe
 D:\saidburakguzel\Projects\Works\C#\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.pdb
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\TcpV2.exe.config
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\TcpV2.exe
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\TcpV2.pdb
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\LiveCharts.dll
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\LiveCharts.pdb
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\LiveCharts.xml
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csprojAssemblyReference.cache
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.Form1.resources
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.Properties.Resources.resources
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csproj.GenerateResource.cache
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csproj.CoreCompileInputs.cache
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csproj.CopyComplete
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.exe
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.pdb

@@ -127,7 +127,7 @@ namespace TcpV2
         }
 
 
-        TcpClient client = new TcpClient("192.168.1.60", 8080); // wifi IP adress,port
+        TcpClient client = new TcpClient("192.168.1.100", 8080); // wifi IP adress,port
 
 
         private void btnConnect_Click(object sender, EventArgs e)
@@ -144,7 +144,7 @@ namespace TcpV2
 
         private void read()
         {
-            /*
+         
             while (true)
             {
                 Control.CheckForIllegalCrossThreadCalls = false;
@@ -153,11 +153,11 @@ namespace TcpV2
                 String responseData = String.Empty;
                 Int32 bytes = stream.Read(data, 0, data.Length);
                 responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
-                txtRead.AppendText("Data : " + responseData + Environment.NewLine);
+                txtRead.AppendText(responseData + Environment.NewLine);
 
-                //data_from_tcp = Int32.Parse(responseData);
+                data_from_tcp = Int32.Parse(responseData);
             }
-            */
+           
         }
 
         private void btnSend_Click(object sender, EventArgs e)
@@ -184,8 +184,8 @@ namespace TcpV2
             ChartValues.Add(new MeasureModel
             {
                 DateTime = now,
-                Value = trackBar1.Value
-            }); ; ;
+                Value = data_from_tcp
+            }) ; ; ;
 
             SetAxisLimits(now);
 
