@@ -1,6 +1,6 @@
 ﻿namespace UI_Prototype_1.Menuitems
 {
-    partial class homePage
+    partial class aboutUs
     {
         /// <summary> 
         /// Required designer variable.
@@ -41,20 +41,20 @@
             this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(378, 304);
+            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(361, 264);
             this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
             this.bunifuMetroTextbox1.Size = new System.Drawing.Size(370, 44);
-            this.bunifuMetroTextbox1.TabIndex = 1;
-            this.bunifuMetroTextbox1.Text = "homePage";
+            this.bunifuMetroTextbox1.TabIndex = 0;
+            this.bunifuMetroTextbox1.Text = "About_us";
             this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // homePage
+            // aboutUs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuMetroTextbox1);
-            this.Name = "homePage";
+            this.Name = "aboutUs";
             this.Size = new System.Drawing.Size(1127, 653);
             this.ResumeLayout(false);
 

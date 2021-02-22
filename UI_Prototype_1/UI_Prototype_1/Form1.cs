@@ -21,42 +21,57 @@ namespace UI_Prototype_1
         }
 
         bool iscollapse = false;
-        homePage homePage = new homePage();
+        homePage home_page = new homePage();
+        aboutUs about_us = new aboutUs();
+        missions missions = new missions();
+        settings settings = new settings();
+
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            if(iscollapse==false)
+            if (iscollapse == false)
             {
-                
-                bunifuGradientPanel3.Width = 1400;
-                
-
-                
                 bunifuGradientPanel2.Width = 60;
-                
                 iscollapse = true;
             }
             else
             {
-                bunifuGradientPanel2.Width = 300;
-                bunifuGradientPanel3.Width = 1131;
-                
+                bunifuGradientPanel2.Width = 200;
                 iscollapse = false;
             }
         }
 
-        private void AddControlsToPanel(Control c)
+        private void btnHome_Click(object sender, EventArgs e)
         {
-            
+            bunifuGradientPanel3.Controls.Remove(home_page);
+            bunifuGradientPanel3.Controls.Remove(missions);
+            bunifuGradientPanel3.Controls.Remove(about_us);
+            bunifuGradientPanel3.Controls.Remove(settings);
+        }
+        private void btnMissions_Click(object sender, EventArgs e)
+        {
+            bunifuGradientPanel3.Controls.Add(missions);
+            bunifuGradientPanel3.Controls.Remove(home_page);
+            bunifuGradientPanel3.Controls.Remove(about_us);
+            bunifuGradientPanel3.Controls.Remove(settings);
         }
 
-        
-        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        private void btnSettings_Click(object sender, EventArgs e)
         {
-            var alpha = bunifuGradientPanel3.Controls.IndexOf(bunifuGradientPanel3);
-            var beta = homePage.Controls.IndexOf(homePage);
-            
-
+            bunifuGradientPanel3.Controls.Add(settings);
+            bunifuGradientPanel3.Controls.Remove(home_page);
+            bunifuGradientPanel3.Controls.Remove(missions);
+            bunifuGradientPanel3.Controls.Remove(about_us);
+           
         }
+        private void btnAboutUs_Click(object sender, EventArgs e)
+        {
+            bunifuGradientPanel3.Controls.Add(about_us);
+            bunifuGradientPanel3.Controls.Remove(home_page);
+            bunifuGradientPanel3.Controls.Remove(missions);
+            bunifuGradientPanel3.Controls.Remove(settings);
+        }
+
+
     }
 }

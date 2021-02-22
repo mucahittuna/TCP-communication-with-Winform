@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace UI_Prototype_1.Menuitems
 {
-    public partial class homePage : UserControl
+    public partial class aboutUs : UserControl
     {
-        public homePage()
+        public aboutUs()
         {
             InitializeComponent();
         }
-
-        
     }
 }

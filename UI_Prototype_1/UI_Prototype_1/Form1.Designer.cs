@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblConnect = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,24 +38,17 @@
             this.txtPort = new Bunifu.Framework.UI.BunifuTextbox();
             this.btnConnect = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuImageButton7 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnSettings = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnAboutUs = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnMissions = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnHome = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuImageButton6 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuGradientPanel3 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel4 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblStatus = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).BeginInit();
             this.bunifuGradientPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,6 +56,7 @@
             // 
             this.bunifuGradientPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             resources.ApplyResources(this.bunifuGradientPanel1, "bunifuGradientPanel1");
+            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
             this.bunifuGradientPanel1.Controls.Add(this.lblConnect);
             this.bunifuGradientPanel1.Controls.Add(this.label2);
             this.bunifuGradientPanel1.Controls.Add(this.label1);
@@ -74,6 +69,13 @@
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.DarkRed;
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // lblConnect
             // 
@@ -138,7 +140,7 @@
             this.btnConnect.IsTab = false;
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Normalcolor = System.Drawing.Color.Transparent;
-            this.btnConnect.OnHovercolor = System.Drawing.Color.Transparent;
+            this.btnConnect.OnHovercolor = System.Drawing.Color.Maroon;
             this.btnConnect.OnHoverTextColor = System.Drawing.Color.Transparent;
             this.btnConnect.selected = false;
             this.btnConnect.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -148,15 +150,11 @@
             // bunifuGradientPanel2
             // 
             resources.ApplyResources(this.bunifuGradientPanel2, "bunifuGradientPanel2");
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuFlatButton5);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuImageButton2);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuFlatButton4);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuImageButton1);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuFlatButton3);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuImageButton7);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuFlatButton2);
+            this.bunifuGradientPanel2.Controls.Add(this.btnSettings);
+            this.bunifuGradientPanel2.Controls.Add(this.btnAboutUs);
+            this.bunifuGradientPanel2.Controls.Add(this.btnMissions);
+            this.bunifuGradientPanel2.Controls.Add(this.btnHome);
             this.bunifuGradientPanel2.Controls.Add(this.bunifuFlatButton1);
-            this.bunifuGradientPanel2.Controls.Add(this.bunifuImageButton6);
             this.bunifuGradientPanel2.GradientBottomLeft = System.Drawing.SystemColors.ActiveCaption;
             this.bunifuGradientPanel2.GradientBottomRight = System.Drawing.Color.Black;
             this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.Black;
@@ -164,153 +162,129 @@
             this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
             this.bunifuGradientPanel2.Quality = 4;
             // 
-            // bunifuFlatButton5
+            // btnSettings
             // 
-            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.DarkRed;
-            this.bunifuFlatButton5.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton5, "bunifuFlatButton5");
-            this.bunifuFlatButton5.BorderRadius = 0;
-            this.bunifuFlatButton5.ButtonText = "SETTINGS";
-            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.Iconimage = null;
-            this.bunifuFlatButton5.Iconimage_right = null;
-            this.bunifuFlatButton5.Iconimage_right_Selected = null;
-            this.bunifuFlatButton5.Iconimage_Selected = null;
-            this.bunifuFlatButton5.IconMarginLeft = 0;
-            this.bunifuFlatButton5.IconMarginRight = 0;
-            this.bunifuFlatButton5.IconRightVisible = true;
-            this.bunifuFlatButton5.IconRightZoom = 0D;
-            this.bunifuFlatButton5.IconVisible = true;
-            this.bunifuFlatButton5.IconZoom = 90D;
-            this.bunifuFlatButton5.IsTab = false;
-            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
-            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.Maroon;
-            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.selected = false;
-            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.Activecolor = System.Drawing.Color.DarkRed;
+            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnSettings, "btnSettings");
+            this.btnSettings.BorderRadius = 0;
+            this.btnSettings.ButtonText = "SETTINGS";
+            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSettings.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSettings.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSettings.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnSettings.Iconimage")));
+            this.btnSettings.Iconimage_right = null;
+            this.btnSettings.Iconimage_right_Selected = null;
+            this.btnSettings.Iconimage_Selected = null;
+            this.btnSettings.IconMarginLeft = 0;
+            this.btnSettings.IconMarginRight = 0;
+            this.btnSettings.IconRightVisible = true;
+            this.btnSettings.IconRightZoom = 0D;
+            this.btnSettings.IconVisible = true;
+            this.btnSettings.IconZoom = 60D;
+            this.btnSettings.IsTab = false;
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnSettings.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnSettings.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSettings.selected = false;
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSettings.Textcolor = System.Drawing.Color.White;
+            this.btnSettings.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
-            // bunifuImageButton2
+            // btnAboutUs
             // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuImageButton2, "bunifuImageButton2");
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
+            this.btnAboutUs.Activecolor = System.Drawing.Color.DarkRed;
+            this.btnAboutUs.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnAboutUs, "btnAboutUs");
+            this.btnAboutUs.BorderRadius = 0;
+            this.btnAboutUs.ButtonText = "About Us";
+            this.btnAboutUs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAboutUs.DisabledColor = System.Drawing.Color.Gray;
+            this.btnAboutUs.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnAboutUs.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnAboutUs.Iconimage")));
+            this.btnAboutUs.Iconimage_right = null;
+            this.btnAboutUs.Iconimage_right_Selected = null;
+            this.btnAboutUs.Iconimage_Selected = null;
+            this.btnAboutUs.IconMarginLeft = 0;
+            this.btnAboutUs.IconMarginRight = 0;
+            this.btnAboutUs.IconRightVisible = true;
+            this.btnAboutUs.IconRightZoom = 0D;
+            this.btnAboutUs.IconVisible = true;
+            this.btnAboutUs.IconZoom = 60D;
+            this.btnAboutUs.IsTab = false;
+            this.btnAboutUs.Name = "btnAboutUs";
+            this.btnAboutUs.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnAboutUs.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnAboutUs.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnAboutUs.selected = false;
+            this.btnAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAboutUs.Textcolor = System.Drawing.Color.White;
+            this.btnAboutUs.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAboutUs.Click += new System.EventHandler(this.btnAboutUs_Click);
             // 
-            // bunifuFlatButton4
+            // btnMissions
             // 
-            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.DarkRed;
-            this.bunifuFlatButton4.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton4, "bunifuFlatButton4");
-            this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "About Us";
-            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = null;
-            this.bunifuFlatButton4.Iconimage_right = null;
-            this.bunifuFlatButton4.Iconimage_right_Selected = null;
-            this.bunifuFlatButton4.Iconimage_Selected = null;
-            this.bunifuFlatButton4.IconMarginLeft = 0;
-            this.bunifuFlatButton4.IconMarginRight = 0;
-            this.bunifuFlatButton4.IconRightVisible = true;
-            this.bunifuFlatButton4.IconRightZoom = 0D;
-            this.bunifuFlatButton4.IconVisible = true;
-            this.bunifuFlatButton4.IconZoom = 90D;
-            this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
-            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.Maroon;
-            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMissions.Activecolor = System.Drawing.Color.DarkRed;
+            this.btnMissions.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnMissions, "btnMissions");
+            this.btnMissions.BorderRadius = 0;
+            this.btnMissions.ButtonText = "MISSIONS";
+            this.btnMissions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMissions.DisabledColor = System.Drawing.Color.Gray;
+            this.btnMissions.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnMissions.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnMissions.Iconimage")));
+            this.btnMissions.Iconimage_right = null;
+            this.btnMissions.Iconimage_right_Selected = null;
+            this.btnMissions.Iconimage_Selected = null;
+            this.btnMissions.IconMarginLeft = 0;
+            this.btnMissions.IconMarginRight = 0;
+            this.btnMissions.IconRightVisible = true;
+            this.btnMissions.IconRightZoom = 0D;
+            this.btnMissions.IconVisible = true;
+            this.btnMissions.IconZoom = 60D;
+            this.btnMissions.IsTab = false;
+            this.btnMissions.Name = "btnMissions";
+            this.btnMissions.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnMissions.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnMissions.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnMissions.selected = false;
+            this.btnMissions.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnMissions.Textcolor = System.Drawing.Color.White;
+            this.btnMissions.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMissions.Click += new System.EventHandler(this.btnMissions_Click);
             // 
-            // bunifuImageButton1
+            // btnHome
             // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuImageButton1, "bunifuImageButton1");
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            // 
-            // bunifuFlatButton3
-            // 
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.DarkRed;
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton3, "bunifuFlatButton3");
-            this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "MISSIONS";
-            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = null;
-            this.bunifuFlatButton3.Iconimage_right = null;
-            this.bunifuFlatButton3.Iconimage_right_Selected = null;
-            this.bunifuFlatButton3.Iconimage_Selected = null;
-            this.bunifuFlatButton3.IconMarginLeft = 0;
-            this.bunifuFlatButton3.IconMarginRight = 0;
-            this.bunifuFlatButton3.IconRightVisible = true;
-            this.bunifuFlatButton3.IconRightZoom = 0D;
-            this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 90D;
-            this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.Maroon;
-            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuImageButton7
-            // 
-            this.bunifuImageButton7.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuImageButton7, "bunifuImageButton7");
-            this.bunifuImageButton7.ImageActive = null;
-            this.bunifuImageButton7.Name = "bunifuImageButton7";
-            this.bunifuImageButton7.TabStop = false;
-            this.bunifuImageButton7.Zoom = 10;
-            // 
-            // bunifuFlatButton2
-            // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.DarkRed;
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuFlatButton2, "bunifuFlatButton2");
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "HOME";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = null;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Maroon;
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
+            this.btnHome.Activecolor = System.Drawing.Color.DarkRed;
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnHome, "btnHome");
+            this.btnHome.BorderRadius = 0;
+            this.btnHome.ButtonText = "HOME";
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.DisabledColor = System.Drawing.Color.Gray;
+            this.btnHome.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnHome.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnHome.Iconimage")));
+            this.btnHome.Iconimage_right = null;
+            this.btnHome.Iconimage_right_Selected = null;
+            this.btnHome.Iconimage_Selected = null;
+            this.btnHome.IconMarginLeft = 0;
+            this.btnHome.IconMarginRight = 0;
+            this.btnHome.IconRightVisible = true;
+            this.btnHome.IconRightZoom = 0D;
+            this.btnHome.IconVisible = true;
+            this.btnHome.IconZoom = 60D;
+            this.btnHome.IsTab = false;
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnHome.OnHovercolor = System.Drawing.Color.Maroon;
+            this.btnHome.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnHome.selected = false;
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnHome.Textcolor = System.Drawing.Color.White;
+            this.btnHome.TextFont = new System.Drawing.Font("Bell MT", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // bunifuFlatButton1
             // 
@@ -343,15 +317,6 @@
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
-            // bunifuImageButton6
-            // 
-            this.bunifuImageButton6.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.bunifuImageButton6, "bunifuImageButton6");
-            this.bunifuImageButton6.ImageActive = null;
-            this.bunifuImageButton6.Name = "bunifuImageButton6";
-            this.bunifuImageButton6.TabStop = false;
-            this.bunifuImageButton6.Zoom = 10;
-            // 
             // bunifuGradientPanel3
             // 
             resources.ApplyResources(this.bunifuGradientPanel3, "bunifuGradientPanel3");
@@ -367,7 +332,7 @@
             // 
             this.bunifuGradientPanel4.BackColor = System.Drawing.Color.Black;
             resources.ApplyResources(this.bunifuGradientPanel4, "bunifuGradientPanel4");
-            this.bunifuGradientPanel4.Controls.Add(this.bunifuCustomLabel2);
+            this.bunifuGradientPanel4.Controls.Add(this.lblStatus);
             this.bunifuGradientPanel4.GradientBottomLeft = System.Drawing.Color.Black;
             this.bunifuGradientPanel4.GradientBottomRight = System.Drawing.Color.Black;
             this.bunifuGradientPanel4.GradientTopLeft = System.Drawing.Color.Black;
@@ -375,12 +340,12 @@
             this.bunifuGradientPanel4.Name = "bunifuGradientPanel4";
             this.bunifuGradientPanel4.Quality = 10;
             // 
-            // bunifuCustomLabel2
+            // lblStatus
             // 
-            resources.ApplyResources(this.bunifuCustomLabel2, "bunifuCustomLabel2");
-            this.bunifuCustomLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.ForestGreen;
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            resources.ApplyResources(this.lblStatus, "lblStatus");
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblStatus.ForeColor = System.Drawing.Color.ForestGreen;
+            this.lblStatus.Name = "lblStatus";
             // 
             // Form1
             // 
@@ -397,11 +362,8 @@
             this.Name = "Form1";
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.bunifuGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).EndInit();
             this.bunifuGradientPanel4.ResumeLayout(false);
             this.bunifuGradientPanel4.PerformLayout();
             this.ResumeLayout(false);
@@ -420,17 +382,14 @@
         private System.Windows.Forms.Label lblConnect;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton6;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
+        private Bunifu.Framework.UI.BunifuFlatButton btnHome;
+        private Bunifu.Framework.UI.BunifuFlatButton btnAboutUs;
+        private Bunifu.Framework.UI.BunifuFlatButton btnMissions;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSettings;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel4;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblStatus;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

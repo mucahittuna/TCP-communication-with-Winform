@@ -1,6 +1,6 @@
 ﻿namespace UI_Prototype_1.Menuitems
 {
-    partial class homePage
+    partial class settings
     {
         /// <summary> 
         /// Required designer variable.
@@ -46,15 +46,15 @@
             this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
             this.bunifuMetroTextbox1.Size = new System.Drawing.Size(370, 44);
             this.bunifuMetroTextbox1.TabIndex = 1;
-            this.bunifuMetroTextbox1.Text = "homePage";
+            this.bunifuMetroTextbox1.Text = "settings";
             this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // homePage
+            // settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuMetroTextbox1);
-            this.Name = "homePage";
+            this.Name = "settings";
             this.Size = new System.Drawing.Size(1127, 653);
             this.ResumeLayout(false);
 
