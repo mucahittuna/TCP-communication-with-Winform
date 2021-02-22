@@ -27,6 +27,7 @@ namespace UI_Prototype_1
         settings settings = new settings();
 
 
+       #region menubar
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
             if (iscollapse == false)
@@ -47,6 +48,7 @@ namespace UI_Prototype_1
             bunifuGradientPanel3.Controls.Remove(missions);
             bunifuGradientPanel3.Controls.Remove(about_us);
             bunifuGradientPanel3.Controls.Remove(settings);
+            
         }
         private void btnMissions_Click(object sender, EventArgs e)
         {
@@ -71,7 +73,9 @@ namespace UI_Prototype_1
             bunifuGradientPanel3.Controls.Remove(missions);
             bunifuGradientPanel3.Controls.Remove(settings);
         }
+        #endregion
 
+       
 
     }
 }
