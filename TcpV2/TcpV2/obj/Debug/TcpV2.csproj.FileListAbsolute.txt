@@ -8,3 +8,13 @@ C:\Users\90545\source\repos\TcpV2\TcpV2\bin\Debug\TcpV2.pdb
 C:\Users\90545\source\repos\TcpV2\TcpV2\obj\Debug\TcpV2.Form1.resources
 C:\Users\90545\source\repos\TcpV2\TcpV2\obj\Debug\TcpV2.exe
 C:\Users\90545\source\repos\TcpV2\TcpV2\obj\Debug\TcpV2.pdb
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\TcpV2.exe.config
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\TcpV2.exe
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\bin\Debug\TcpV2.pdb
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csprojAssemblyReference.cache
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.Form1.resources
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.Properties.Resources.resources
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csproj.GenerateResource.cache
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.csproj.CoreCompileInputs.cache
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.exe
+C:\Users\90545\Desktop\This Pc\SIMULAB\Simulab_Ground_Station\TcpV2\TcpV2\obj\Debug\TcpV2.pdb

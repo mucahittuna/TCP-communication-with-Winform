@@ -24,12 +24,34 @@ namespace TcpV2
         {
             InitializeComponent();
         }
-
-        TcpClient client = new TcpClient("192.168.1.105", 8080); // wifi IP adress,port
-
-
-        private void btnConnect_Click(object sender, EventArgs e)
+        
+         int portNum;
+         string hostName;
+        TcpClient client = new TcpClient();
+        
+        
+        public void baglan()
         {
+            hostName = txtHost.Text.ToString();
+            portNum = Convert.ToInt32(txtPort.Text);
+            try
+            {
+                var client = new TcpClient(hostName, portNum);
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("error");
+            }
+
+           
+        }
+        
+
+        public void btnConnect_Click(object sender, EventArgs e)
+        {
+            baglan();
+                                         
             timer1.Start();
             Thread thread;
             thread = new Thread(new ThreadStart(read));
@@ -39,11 +61,13 @@ namespace TcpV2
 
 
         }
+       
 
-        private void read()
+        public void read()
         {
             while (true)
             {
+                
                 Control.CheckForIllegalCrossThreadCalls = false;
                 NetworkStream stream = client.GetStream();
                 Byte[] data = new Byte[256];
@@ -58,6 +82,7 @@ namespace TcpV2
 
         private void btnSend_Click(object sender, EventArgs e)
         {
+           
             string message;
             message = txtSend.Text.ToString();
             Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);

@@ -36,13 +36,15 @@
             this.btnConnect = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.txtHost = new System.Windows.Forms.TextBox();
+            this.txtPort = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblconnect
             // 
             this.lblconnect.AutoSize = true;
             this.lblconnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblconnect.Location = new System.Drawing.Point(214, 96);
+            this.lblconnect.Location = new System.Drawing.Point(158, 33);
             this.lblconnect.Name = "lblconnect";
             this.lblconnect.Size = new System.Drawing.Size(20, 29);
             this.lblconnect.TabIndex = 10;
@@ -97,11 +99,29 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // txtHost
+            // 
+            this.txtHost.Location = new System.Drawing.Point(135, 107);
+            this.txtHost.Name = "txtHost";
+            this.txtHost.Size = new System.Drawing.Size(145, 22);
+            this.txtHost.TabIndex = 12;
+            this.txtHost.Text = "192.168.1.107";
+            // 
+            // txtPort
+            // 
+            this.txtPort.Location = new System.Drawing.Point(339, 107);
+            this.txtPort.Name = "txtPort";
+            this.txtPort.Size = new System.Drawing.Size(145, 22);
+            this.txtPort.TabIndex = 13;
+            this.txtPort.Text = "8080";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(925, 621);
+            this.Controls.Add(this.txtPort);
+            this.Controls.Add(this.txtHost);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblconnect);
             this.Controls.Add(this.btnSend);
@@ -124,6 +144,8 @@
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox txtHost;
+        private System.Windows.Forms.TextBox txtPort;
     }
 }
 

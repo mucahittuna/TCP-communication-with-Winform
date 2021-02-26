@@ -105,7 +105,7 @@
             this.txtHost.ForeColor = System.Drawing.Color.Black;
             this.txtHost.Icon = ((System.Drawing.Image)(resources.GetObject("txtHost.Icon")));
             this.txtHost.Name = "txtHost";
-            this.txtHost.text = "";
+            this.txtHost.text = "192.168.1.107";
             // 
             // txtPort
             // 
@@ -114,7 +114,7 @@
             this.txtPort.ForeColor = System.Drawing.Color.Black;
             this.txtPort.Icon = ((System.Drawing.Image)(resources.GetObject("txtPort.Icon")));
             this.txtPort.Name = "txtPort";
-            this.txtPort.text = "";
+            this.txtPort.text = "8080";
             // 
             // btnConnect
             // 
@@ -146,6 +146,7 @@
             this.btnConnect.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConnect.Textcolor = System.Drawing.Color.White;
             this.btnConnect.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // bunifuGradientPanel2
             // 
@@ -375,10 +376,8 @@
 
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
         private Bunifu.Framework.UI.BunifuFlatButton btnConnect;
-        private Bunifu.Framework.UI.BunifuTextbox txtHost;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuTextbox txtPort;
         private System.Windows.Forms.Label lblConnect;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
@@ -390,6 +389,8 @@
         private Bunifu.Framework.UI.BunifuCustomLabel lblStatus;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        public Bunifu.Framework.UI.BunifuTextbox txtHost;
+        public Bunifu.Framework.UI.BunifuTextbox txtPort;
     }
 }
 

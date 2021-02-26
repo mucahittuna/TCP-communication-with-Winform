@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.IO.Ports;
 using UI_Prototype_1.Menuitems;
 using System.Runtime.InteropServices;
+using System.Net.Sockets;
+using System.Threading;
 
 namespace UI_Prototype_1
 {
@@ -26,8 +28,13 @@ namespace UI_Prototype_1
         missions missions = new missions();
         settings settings = new settings();
 
+       
 
-       #region menubar
+
+
+
+
+        #region menubar
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
             if (iscollapse == false)
@@ -73,9 +80,32 @@ namespace UI_Prototype_1
             bunifuGradientPanel3.Controls.Remove(missions);
             bunifuGradientPanel3.Controls.Remove(settings);
         }
+
+
         #endregion
 
-       
+
+         
+        TcpClient client = new TcpClient(); // TCp yi arkaplanda hazır hale getiriyoruz.
+        
+
+        public void btnConnect_Click(object sender, EventArgs e)
+        { 
+            var ipNum = txtHost.text;
+            int portNum = Convert.ToInt32(txtPort.text);
+            client = new TcpClient(ipNum, portNum);
+            Thread thread;
+            thread = new Thread(new ThreadStart(settings.dataoku));
+            thread.Start();
+
+            lblStatus.Text = "Connected";
+
+        }
+
+        
+    }
+
+
 
     }
-}
+
