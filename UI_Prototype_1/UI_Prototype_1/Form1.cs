@@ -13,6 +13,8 @@ using System.Runtime.InteropServices;
 using System.Net.Sockets;
 using System.Threading;
 
+
+
 namespace UI_Prototype_1
 {
     public partial class Form1 : Form
@@ -85,13 +87,14 @@ namespace UI_Prototype_1
         #endregion
 
 
-         
-        TcpClient client = new TcpClient(); // TCp yi arkaplanda hazır hale getiriyoruz.
-        
+
+
+
+        TcpClient client = new TcpClient();
 
         public void btnConnect_Click(object sender, EventArgs e)
-        { 
-            var ipNum = txtHost.text;
+        {
+            string ipNum = txtHost.text;
             int portNum = Convert.ToInt32(txtPort.text);
             client = new TcpClient(ipNum, portNum);
             Thread thread;
